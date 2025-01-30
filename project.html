@@ -1,0 +1,213 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>6.S058 Project</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+<div class="container">
+  <table border="0" align="center">
+    <tr>
+      <td width="160" align="right"><a href="http://groups.csail.mit.edu/vision"><img src="images/cv_logo1.jpg" width="99" height="98" border="0" /></a></td>
+      <td width="623" align="center" valign="middle"><h3>MIT CSAIL</h3>
+        <span class="title">6.S058: Introduction to Computer Vision</span></td>
+      <td width="160" align="left"><a href="http://groups.csail.mit.edu/vision"><img src="images/cv_logo2.jpg" width="159" height="98" border="0" /></a></td>
+    </tr>
+    <tr>
+      <td colspan="3" align="center"><h3>Spring 2025</h3></td>
+    </tr>
+    <tr>
+
+      <td colspan="3" align="center"><span class="menubar">[<a href="index.html">Home</a> | <a href="policy.html">Policy</a> | <a href="schedule.html">Schedule</a> | <a href="materials.html">Course Materials</a>  | <a href="project.html">Final Project</a> | <a href="https://piazza.com/class/xxxxx">Piazza </a> | <a href="https://canvas.mit.edu/courses/xxxxx">Canvas</a>  ]</span></td>
+    </tr>
+  </table>
+
+  <h2><a name="proj" id="proj"></a>Project Overview & Team Formation</h2>
+  <!--<p> This page is being actively updated. The information listed here is still tentative. We'll send out an announcement when details of projects are finalized.</p>-->
+
+  <p> The final project is an opportunity for you to apply what you have learned in this class to a problem in computer vision that interests you. You can either pick one of the suggested project topics below (Option 1) or come up with your own project idea (Option 2). </p>
+
+  <p> Your project must investigate a <b>scientific question</b>. It is not enough to do a literature review, nor to directly reimplement a method without making any changes to it. A good project is one where you have scoped out a reasonable problem and demonstrated first experimental evidence that your proposal is viable. We expect at least 30 hours of work per team member on the project, and we are allocating time in the schedule to accommodate this (the workload will be consistent with problem set expectations during the equivalent time period). We expect two-person projects to be about twice the amount of work and content as one-person projects.</p>
+
+  <p> Although we recommend you work in teams, it is not required. <b>If you do decide to form a team</b>, please note that each team can have a <b>maximum of 3 members</b> and you and your project partner must be <b>registered in the same course</b>. Your project partner must be in <b>the same CI-M recitation section</b> as you. </p>
+
+   <p>Further below you will find instructions regarding the project proposal, presentation, and report, and detailed grading rubrics.</p>
+
+<!-- <h2><a name="proj" id="proj"></a>Project Compute Resources</h2>
+
+<p>  Please see Piazza for details. </p> -->
+ 
+<h2><a name="proj" id="proj"></a>Project Topic</h2>
+
+
+<h3>Option 1: Choose one of the suggested project topics: </h3>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/ControlNet_for_Stable_Diffusion.pdf">ControlNet for Stable Diffusion</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/computer_aided_diagnosis.pdf">Computer-Aided Diagnosis</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/stata.pdf">Stata Navigation</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/3DMartianRocks.pdf">3D Printing Martian Rocks</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/3d_from_contours.pdf">3D Shape from 2D Surface Contours</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/3d.pdf">3D Shape Reconstruction</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/sketch.pdf"> Reconstructing 3D Structure from Drawing &amp; Sketches</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/VLBI.pdf">Imaging the Black Hole at the Center of the Milky Way</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/segmentation_proposal.pdf">Scene Segmentation</a></li>
+<!--     <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/VQA_proposal.pdf">Visual Question Answering (VQA) in a Toy World</a></li> -->
+    <li> Note: Visual Question Answering project removed due to most project attempts last year being over-ambitious in compute resources. Feel free to propose a well-scoped project on those lines. 
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/NeRF_Proposal.pdf">NeRF: Neural Radiance Fields</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/proj_surprise.pdf">An Automatic Metric for Surprisal</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/wobbling_stars_project.pdf">Motion Magnification for Planets</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/Gaze_coding_project.pdf">Gaze Coding for Developmental Research</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/video_superresolution.pdf">Video Super Resolution</a></li>
+    <li> <a href="http://6.8300.csail.mit.edu/sp23/projects/vis.pdf">Visually Indicated Sounds</a></li>
+</ul>
+
+
+<h3>Option 2: Come up with your own project idea:</h3>
+
+  You could select a topic in computer vision that interests you and create your own project around it. A potential project could focus on an application or on creating new models or improving existing ones:
+   <ul>
+        <li>Application: You could apply computer vision techniques to a specific application with your background and interest.</li>
+        <li>Models: You could create new models or improve previous models or methods, then evaluate them systematically on standard image datasets to demonstrate their strengths and weaknesses. </li>
+   </ul>
+ 
+
+<h2>Project Proposal Requirements</h2>
+
+<p>The proposal is due <b>Thursday, April 3 at 11:59 pm</b> and must be submitted in <b>PDF format</b> once on <b>Canvas</b> for a CI-M grade and once on <b>Gradescope</b>  for the TAs.  </p>
+
+The proposal requires you to define the research space you’ll investigate, and to describe the research you plan to do within that space. You will: identify a research gap; move from that problem/opportunity to a solution/goal; and come up with an approach for how that might be done. The technical staff will read your proposal for content, and you will receive more detailed feedback from your communication instructor and your peers to guide you in the revision and development process. The project proposal should be written and <b>submitted as a group (not individually)</b>. Furthermore, independent of whether you choose Option 1 or 2 above, your proposal should answer the following questions:
+<ul>
+<li> What is the problem/question that you will be investigating? </li>
+<li>  Why is the problem interesting/important? </li>
+<li>  What are the most relevant readings (2-4 papers)?  </li>
+<li>  What data will you use? </li>
+<li>  What are the existing methods? Are their implementations available? </li>
+<li>  What method or algorithm will you use, and why? What motivates your choice of this approach?</li>
+<li>  What computing resources will you use to train and run your model(s)?
+<li>  How will you evaluate your results? </li>
+<li>  Qualitatively, what kind of results do you expect (e.g. plots or figures)?</li>
+<li>  Quantitatively, what kind of analysis (performance metrics, statistical tests etc.) will you use to evaluate and/or compare your results?</li>
+<li>  If your approach is successful, what difference will this contribution make?</li>
+</ul>
+
+<b>Formatting:</b> The formatting of the proposal is up to you: it can take the form of sections separated by headings, each addressing one or several of the questions above, or it can be in a narrative format (i.e. without section headings). Whichever option you choose, your proposal should be <b>written in full sentences, rather than bulleted lists</b>. (Writing your proposal in full sentences allows you to prepare for the writing you’ll do for the final report). The <b>length</b> of the proposal should be <b>1 single-spaced page, or 2 double-spaced pages</b>, maximum.
+
+<p><b>Grading:</b> The CIs grade will be on a 1-100 scale and will make up the CI-M portion of the project grade. You can find a rubric that describes how CI will assess the project <a href="https://docs.google.com/document/d/1-Y2nZlPf9v8x3lWkvKb3bDEo14LLkXa4/edit?usp=sharing&ouid=112913186145240880649&rtpof=true&sd=true">here</a>.</p>
+
+
+  </p><h2>Project Report Requirements (TBD)</h2>
+<p>  The report should ideally be at least 3 and no more than 5 pages in length (excluding references). We will deduct points for excessively and unnecessarily long reports (a well-written concise report is better than a long and wordy one!). If you're working in a team, the expectation is that you'll likely need the full 5 pages for your report. Furthermore, if you're part of a team, you should write the report together but you must include a section that <b>lists the individual contributions of each team member</b>. We will apply a penalty if this section is missing for 2-person teams. The report should be structured like a research paper, starting with an abstract, followed by sections for Introduction, Related Work, Methodology, Experimental Results, Discussion, Conclusion, and ending with references. Some of the sections can be combined if you want (specifically, Introduction/Motivation & Related Work as well as Results & Discussion). We recommend you write the report in the <a href="https://cvpr2022.thecvf.com/sites/default/files/2021-10/cvpr2022-author_kit-v1_1-1.zip">CVPR format</a>.</p> 
+
+
+<p>You should describe and evaluate what you did in your project, which may not necessarily be what you hoped to do originally. A  small result described and evaluated well will earn more credit than an  ambitious result where no aspect was done well. Be accurate in describing the problem you tried to solve. Explain in detail your approach, and specify any simplifications or assumptions you have made. Also demonstrate the limitations of your approach. When doesn’t it work? Why? What steps would you have taken had you continued working on it? Make sure to add references to all related work you reviewed or used.</p>
+
+<p><b>Submission:</b> The report is due <b>Tuesday, May 14 at 11:59 pm</b> and must be submitted in <b>PDF format</b>. Late submissions will not be accepted. If you're part of a team, only one of you should submit the PDF. In that case, please list both partners’ names and MIT Kerberos IDs (if you have one) at the top of the PDF and pay attention to the Gradescope team submission details.</p>
+
+
+  </p><h2>Project Presentation Requirements (TBD)</h2>
+  <p>The presentation gives you a chance to provide us with a concise overview of the current state of your project and get us excited to your read your report! The presentation should highlight the key contributions your project is making and the insights you've gained while tackling a new research problem. </p>
+
+  <p>You should aim for your presentation to <b> last 4 - 4.5 min </b> and it <b>should not exceed 5 min</b>. After 4.5 min we will signal to you that you have 30 seconds left to wrap up your talk. At 5 min we will cut you off whether or not you have covered all your slides. If you try to continue with your presentation after we cut you off, we will have to apply a penalty. <b>For teams of two, each student must present</b> and you should aim to speak for approximately the <b>same amount of time (~2 min each)</b>. Given the size of the class, unfortunately there will be <b>no time for Q&A</b>.</p> 
+  
+  <p> You will have to prepare your slides in <b>Google Slides</b>. We'll ask you to share with us a link to your slides so that at the time of the presentation, the grader can simply click on the link to pull up your slides. This way you can still make changes to your slides last minute (if need be). Details will be announced on Piazza.</p> 
+
+  <p>Note: Whether you present at an earlier or later date will not affect your grade. It is perfectly fine if you do not have all (or any) of your results ready by the time you present. Make sure to describe the experiments you are planning on running and explain what you think your experiments will demonstrate.</p> 
+  
+  <p>For those who did not opt in for live presentations, the pre-recorded presentations are due the last day of live presentations, the same deadline as the final report: May 14th, 11:59 pm. </p>
+
+  <h2>Project Grading Policy (TBD)</h2>
+  
+  The final project makes up 40% of the course grade. For 6.8300 students, the project is comprised of the report and the presentation, worth 30% and 10%, respectively. For 6.8301 students, the project is comprised of the report, the presentation, and the CI-M component, worth 22.5%, 7.5%, and 10%, respectively.
+
+  <br>
+  <br>
+  <b>Report Grading Rubric: Please refer to <a href="https://canvas.mit.edu/files/4208910/download?download_frd=1">this link</a>.</b>
+<!--   <ul><li>Abstract (/10)</li>
+      <ul>
+       <li> Provides a concise summary of the project and effectively highlights key insights/findings.</li>
+     </ul>
+      <li>Introduction/Motivation & Related Work (/15)</li>
+      <ul>
+        <li>Is the problem described clearly? Why is the problem important (if you solved it, who would care)?</li>
+        <li>How have people tackled this problem before and how is your project building upon and different from prior work?</li>
+        <li>What is your goal: What are you going to check / test / validate / analyze / improve?</li>
+      </ul>
+      <li>Methodology (/15)</li>
+      <ul>
+        <li>The hypothesis is stated clearly: what are you trying to show / investigate? </li>
+        <li> The dataset is described clearly. </li>
+        <li> The method is described clearly (preprocessing steps, the model etc.).</li>
+        <li> Performance metrics are meaningful and clearly defined. </li>
+        <li> For 6.8300 students, we expect a somewhat more ambitious methodology compared to 6.8301 students. </li>
+      </ul>
+      <li> Experimental Results & Discussion (/15) </li>
+      <ul> 
+        <li> Key findings and insights of the project are effectively demonstrated and discussed. </li>
+        <li> Readers can understand the purpose of each experiment and how it relates to the research problem the project tackles. </li>
+        <li> Discusses limitations of the proposed method and/or analysis. </li>
+        <li> Discusses how the results and insights gained relate to and/or improve upon previous work. </li>
+        <li> For 2-person teams, there are higher expectations for experimental results (i.e., baselines, ablations, etc.).</li>
+      </ul>
+      <li>Conclusion (/10)</li>
+      <ul> 
+        <li>Complete and compelling.</li>
+        <li>Summarizes findings.</li>
+        <li> Discusses open problems and future work.</li>
+        </ul>
+      <li>Figures (/10)</li>
+      <ul>
+        <li> If your project generated results that are visual or better to understand when plotted, you must have figures that show the results.</li>
+        <li>If not, you must have at least one figure that illustrates the problem or the method that you are implementing to tackle the problem.</li>
+        <li>Figures are clear.
+        <li>Captions are clear and tell the reader what to take away from the figure.</li> 
+      </ul> 
+      <li> Clarity and Reproducibility (/10)</li>
+      <ul>
+        <li>The report is well-written, concise, and easy to understand.</li>
+        <li>Can the work be reproduced from the information given in the report?</li>
+      </ul>
+      <li> New Ideas & Contributions (/10)</li>
+      <ul>
+        <li> Does the project go beyond re-implementing an existing method and add something that has not been done before? This could involve a new analysis of the model, a change to the model, or a new application.</li>
+        <li>The larger the team, the higher the expectation. For teams of 1, adding an ablation study / running a new analysis is sufficient. For teams of 2, we expect more, either analyzing the method along several different axes, or making & ablating a proposed change to the model.</li>
+        <li>For 6.8301, similarly, we expect slightly less novelty. An ablation study or small analysis of the model along a previously unseen axis is sufficient. For 6.8300, we expect that the analysis would demonstrate some understanding of what insight would be gained from it, and why it would be important. Similarly, for model changes, we expect that changes to the model are clearly motivated with a hypothesis of what they will accomplish and an analyses that indicates whether the improvement materialized. </li>
+      </ul>
+      <li>References (/5)</li>
+      <ul>
+      <li> Sources are cited properly in accordance with any commonly used citation style (your in-text citations and bibliography should follow one citation style consistently).
+        </ul>
+  </ul> -->
+
+  <b>Presentation Grading Rubric (/100) (TBD)</b>
+
+  <br> 
+  <br> Note: Since presentations are holistic, we won't assign percentages to the individual sub-points.
+
+  <ul> 
+    <li>Clarity (/40)</li>
+      <ul> 
+        <li>Was your presentation easy to follow? Was it clear to someone who took 6.8300/1 but isn't familiar with the particulars of the project? </li>
+        <li> Were your slides clear, concise, and well organized? Did they get the message across?</li>
+        <li> Was your talk supported by meaningful visuals with a clear message? Were they easy to understand and legible?</li>
+        <li> Did you articulate your thoughts effectively? Did you speak clearly and at a good pace to ensure everyone can follow your talk?</li>
+        <li> Was the delivery of your presentation well organized? Did you cover all your slides within the time limit without rushing through them? </li>
+        <ul> 
+          <li> For teams of two: Was the coordination between joint speakers handled smoothly? Was the presentation divided up effectively and the presentation time well balanced between joint speakers?</li> 
+       </ul>
+     </ul>
+    <li> Content (/60)</li>
+      <ul>
+        <li> Intro/Motivation & Related work: What are you trying to do? How is it done today, and what are the limits of current practice?
+          <li> Methodology: What is your approach, how is it different from previous work, and why is it better? </li>
+          <li> Results & Discussion: How did you evaluate your approach or conduct your analysis? Which experiments did you run to support your claims? What other experiments will you run and why? What are the limitations of your approach or analysis? (As mentioned above, not having your results ready for the presentation is perfectly fine. In that case, please make sure to discuss the experiments you will run and what you think they will demonstrate.)
+      </ul>
+  </ul>
+
+
+<p>&nbsp;</p>
+</div>
+</body>
+</html>
