@@ -1,0 +1,235 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title> 6.S058: Introduction to Computer Vision, Spring 2025</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <table border="0" align="center">
+      <tr>
+        <td width="160" align="right"><a href="http://groups.csail.mit.edu/vision"><img src="images/cv_logo1.jpg"
+              width="99" height="98" border="0"></a></td>
+        <td width="623" align="center" valign="middle">
+          <h3>MIT CSAIL</h3>
+          <span class="title">6.S058: Introduction to Computer Vision</span>
+        </td>
+        <td width="160" align="left"><a href="http://groups.csail.mit.edu/vision"><img src="images/cv_logo2.jpg"
+              width="159" height="98" border="0" /></a></td>
+      </tr>
+      <tr>
+        <td colspan="3" align="center">
+          <h3>Spring 2025</h3>
+        </td>
+      </tr>
+      <!-- <tr>
+      <td colspan="3" align="center"><h2 style="background-color:#FFA07A;"><a href="https://mit.zoom.us/j/92273651703">Zoom link for class</a></h2></td>
+    </tr> -->
+      <tr>
+
+        <!-- FIXME -->
+        <td colspan="3" align="center"><span class="menubar">[<a href="index.html">Home</a> | <a
+              href="policy.html">Policy</a> | <a href="schedule.html">Schedule</a> | <a href="materials.html">Course
+              Materials</a> | <a href="project.html">Final Project</a> | <a
+              href="https://piazza.com/class/m6oaeq85qni208/">Piazza </a> | <a
+              href="https://canvas.mit.edu/courses/32165">Canvas</a> ]</span></td>
+              
+      </tr>
+    </table>
+    <br>
+    <p><img src="images/teaser.jpg" height="200" align="middle" /></p>
+
+    <h2>Course Overview</h2>
+    <p>This course provides an introduction to computer vision, covering topics from early vision to mid- and high-level vision, including low-level image analysis, edge detection, image transformations for image synthesis, methods for 3D scene reconstruction, motion analysis and tracking. Additionally, presents basics of machine learning, convolutional neural networks, and transformers in the context of image and video data for object classification, detection, and segmentation. </p>
+
+    <h2>Announcements</h2>
+    <!-- FIXME -->
+    <!-- <p><span class="announce_date">Feb 4, 2024: Welcome to 6.S058 (previously 6.4300)!</p> -->
+    <p class="announce"> Make sure to check out the course info below, as well as the <a
+        href="schedule.html">schedule</a> for updates. The course units are 4-0-11 (Undergraduate Level, CI-M Subject). The
+      prerequisites of this course are (18.06 or 18.C06), and (6.1200, 6.3700, 6.3800, 18.05, or 18.600). Good luck with your semester!
+
+      <!-- FIXME -->
+      <br>Classroom recordings will <a href="https://canvas.mit.edu/courses/32165/external_tools/594">be posted here</a>.
+      <!--  There will a MATLAB tutorial on Friday afternoon. The exact time and place will be announced.-->
+    </p>
+    <h2>Course Information</h2>
+
+    <div class="col-md-12">
+      <h3>Course Instructors</h3>
+      <div class="instructor">
+        <a href="https://web.mit.edu/phillipi/">
+          <div class="instructorphoto"><img src="http://web.mit.edu/phillipi/www/images/photo_of_me_korea.jpeg"></div>
+          <div>Phillip Isola</div> <br>
+        </a>
+      </div>
+      <div class="instructor">
+        <a href="https://billf.mit.edu/">
+          <div class="instructorphoto"><img src="https://billf.mit.edu/files/2014/04/WilliamFreeman_332x332.jpg"></div>
+          <div>Bill Freeman</div> <br>
+        </a>
+      </div>
+      <div class="instructor">
+        <a href="https://www.tianhongli.me">
+          <div class="instructorphoto"><img src="images/tianhong.jpg"></div>
+          <div>Tianhong Li</div> <br>
+        </a>
+      </div>
+
+    </div>
+
+
+
+
+    <!-- FIXME -->
+    <div class="col-md-12">
+      <h3>CI-M Instructors</h3>
+        <div class="instructor">
+          <div class="instructorphoto"><img src="images/CIM_Instructors_square/AmyCarleton.jpg"></div>
+        <div>Amy Carleton</div> <br> <br>
+        </div>
+
+        <div class="instructor">
+          <div class="instructorphoto"><img src="images/CIM_Instructors_square/KatieBruner.JPG"></div>
+        <div><a href="mailto:kbruner@mit.edu"> Katie Bruner </a> </div> <br> <br>
+        </div>
+
+        <div class="instructor">
+          <div class="instructorphoto"><img src="images/CIM_Instructors_square/KristenStarkowski.jpg"></div>
+        <div><a href="mailto:khs@mit.edu"> Kristen Starkowski</a></div> <br>
+        </div>
+
+        <div class="instructor">
+          <div class="instructorphoto"><img src="images/photo.jpg"></div>
+        <div><a href="mailto:nico456@mit.edu">Nicole Cunningham-Frisbey</a></div>
+        </div>
+
+        <div class="instructor">
+          <div class="instructorphoto"><img src="images/CIM_Instructors_square/SarahBates.png"></div>
+        <div><a href="mailto:srbates@mit.edu">Sarah Bates</a></div> <br> <br>
+        </div>
+
+        <div class="instructor">
+          <div class="instructorphoto"><img src="images/CIM_Instructors_square/ThomasPickering.jpg"></div>
+        <div><a href="mailto:tpick@mit.edu"> Thomas Pickering </a></div> <br>
+      </div>
+    </div>
+  
+  <!-- FIXME -->
+  <div class="col-md-12">
+      <h3> Course Assistant</h3>
+      <p>For any personal or logistical questions, such as regarding absenses, accomodations, etc, please email the course assistant, Taylor Braun, not the instructors directly. </p>
+
+        <div class="instructor">
+          <div class="instructorphoto"><img src="images/tvbraun.jpg"></div>
+          <div>Taylor Braun<br> </div>
+          <div><a href="mailto:6.S058-personal@mit.edu"> 6.S058-personal@mit.edu </a><br> </div>
+        </a>
+      </div>
+       
+    </div>
+    
+  <!-- FIXME -->
+  <div class="col-md-12">
+    <h3>Teaching Assistants</h3>
+    <p>Please use the course <a href="https://piazza.com/class/m6oaeq85qni208/">Piazza page</a> for all communication
+      with the teaching staff. </p>
+
+    <div class="instructor">
+      <div class="instructorphoto"><img src="images/jamie.jpeg"></div>
+      <div>Jamison Meindl</div> <br>
+    </div>
+
+    <div class="instructor">
+      <div class="instructorphoto"><img src="images/kathy.jpg"></div>
+      <div>Kathy Choi</div> <br>
+    </div>
+
+
+    <div class="instructor">
+      <div class="instructorphoto"><img src="images/kelly.jpg"></div>
+      <div>Kelly Cui</div> <br>
+    </div>
+
+    <div class="instructor">
+      <div class="instructorphoto"><img src="images/madeline.jpg"></div>
+      <div>Madeline Loui</div> <br>
+    </div>
+
+    <div class="instructor">
+      <a href="https://sashajh2.github.io/sasha-website/">
+      <div class="instructorphoto"><img src="images/sasha.JPG"></div>
+      <div>Sasha Jovanovic-Hacon</div>
+      </a>
+    </div>
+
+    <div class="instructor">
+      <a href="https://www.linkedin.com/in/sydney-chun-7b40a3216">
+      <div class="instructorphoto"><img src="images/sydney.jpg"></div>
+      <div>Sydney Chun</div> <br>
+    </div>
+
+    <div class="instructor">
+       <a href="https://yravan.github.io/">
+      <div class="instructorphoto"><img src="https://yravan.github.io/assets/img/profile_pic-480.webp"></div>
+      <div>Yajvan Ravan</div>
+      </a>
+    </div>
+  </div>
+      <div class="col-md-12">
+        <h3>Time and Classroom</h3>
+        01:00 pm - 2:30 pm every Tuesday and Thursday in 34-101.
+      </div>
+      <div class="col-md-12">
+          <!-- FIXME -->
+        <h3>Office Hours (All times in ET)</h3>
+        <p>Which instructor/TA for which OH is tracked on <a href="https://calendar.google.com/calendar/u/0?cid=MzRiYzc4YThjNGJiNzE4NWUxYzg1NTQ4ODA3MGY2NDJjMmVhNDdmNDI1MDAyNzc1MzA5NjNlNjZjMjQ5MTFlZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t">the TA OH calendar</a>.</p>
+        <p style="color:red">Please direct all problem set questions to TAs rather than instructors!</p>
+
+
+        <h4>Instructors</h4>
+        Phillip: Wednesday 1 - 2pm<br>
+        Bill: Friday 3 - 4pm, 45-741F (office)<br>
+        Tianhong: Wednesday 2 - 3 pm<br>
+
+        <h4>TAs</h4>
+        Room will be on <a href="https://calendar.google.com/calendar/u/0?cid=MzRiYzc4YThjNGJiNzE4NWUxYzg1NTQ4ODA3MGY2NDJjMmVhNDdmNDI1MDAyNzc1MzA5NjNlNjZjMjQ5MTFlZkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t">the TA OH calendar</a>. <br>
+
+        Monday 11 - 12am<br>
+        Tuesday 11am - 1pm<br>
+        Wednesday 3 - 4pm<br>
+        Thursday 11am - 1pm<br>
+      
+      </div>
+      <div class="col-md-12">
+        <h3>Grading Policy</h3>
+        <!-- FIXME -->
+        <b>Psets:</b> 40%
+        <!-- <br> Note: All psets are weighted equally.  -->
+        <br> <b>Midterm:</b> 20%
+        <br> <b>Final project:</b> 40%
+        <br>&emsp;&bull; Proposal and progress report: 10%, graded by CI-M instructors.
+        <br>&emsp;&bull; Final report: 20%
+        <br>&emsp;&bull; Presentation: 10%
+        <br> <b> CI-M participation:</b> required for MIT undergraduates.
+      </div>
+
+      <p>&nbsp;</p>
+
+
+
+      <hr />
+
+
+
+      <!--<p align="center" class="acknowledgement">Last updated: 30 July 2012</p>-->
+    </div>
+</body>
+
+</html>
